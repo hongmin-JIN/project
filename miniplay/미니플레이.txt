@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>minipaly!</title>
+  </head>
+  <body>
+    <style>
+      body{
+        background-color:#000035;
+      }
+      img{
+        width:150px;
+        margin:5px;
+      }
+      div{
+        text-align:center;
+      }
+      ol{
+        display:flex;
+        list-style:none;
+        color:white;
+        margin-top:10px;
+        text-align:right;
+      }
+      a{
+        text-align-right;
+      }
+      ul{
+        display:inline;
+        color:white;
+        list-style:none;
+      }
+      .join{
+        padding-right:30px;
+      }
+      .topbar{
+        display:flex;
+        float:right;
+      }
+      .container{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+      }
+      .underline-hover li{
+        display:inline-block;
+      }
+    </style>
+    <nav class="topbar">
+      <div>
+        <a href="miniplay.html"><img src="logo_games.png" target="_blank"></a>
+      </div>
+      <ol>
+        <li class="join">회원가입</li>
+        <li>로그인</li>
+      </ol>
+    <div class="container">
+      <ul class="underline-hover">
+        <li><a href="">게임센터</a></li>
+        <li><a href="">이용방법</a></li>
+        <li><a href="">커뮤니티</a></li>
+        <li><a href="">상점</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

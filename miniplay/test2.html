@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .main_page{
+      display:grid;
+      grid-gap:10px;
+      grid-template-areas:'chat banner banner banner login'
+                          'chat banner_1 banner_1 live livelist'
+                          'game_list post post menu1 livelist'
+                          'game_list menu2 menu3 menu4 livelist'
+                          'game_list menu5 menu6 menu7 livelist'
+      }
+      .main_page div{
+        background-color:green;
+        border: 1px solid black;
+        padding:10px;
+      }
+      .chat{
+        grid-area: chat;
+      }
+      .banner{
+        grid-area: banner;
+      }
+      .login{
+        grid-area: login;
+      }
+      .banner_1{
+        grid-area: banner_1;
+      }
+      .live{
+        grid-area: live;
+      }
+      .livelist{
+        grid-area: livelist;
+      }
+      .game_list{
+        grid-area: game_list;
+      }
+      .post{
+        grid-area: post;
+      }
+      .menu1{
+        grid-area: menu1;
+      }
+      .menu2{
+        grid-area: menu2;
+      }
+      .menu3{
+        grid-area: menu3;
+      }
+      .menu4{
+        grid-area: menu4;
+      }
+      .menu5{
+        grid-area: menu5;
+      }
+      .menu6{
+        grid-area: menu6;
+      }
+      .menu7{
+        grid-area: menu7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_page">
+        <div class="chat">chat</div>
+        <div class="banner">banner</div>
+        <div class="login">login</div>
+        <div class="banner_1">banner_1</div>
+        <div class="live">live</div>
+        <div class="livelist">livelist</div>
+        <div class="game_list">game_list</div>
+        <div class="post">post</div>
+        <div class="menu1">menu1</div>
+        <div class="menu2">menu2</div>
+        <div class="menu3">menu3</div>
+        <div class="menu4">menu4</div>
+        <div class="menu5">menu5</div>
+        <div class="menu6">menu6</div>
+        <div class="menu7">menu7</div>
+      </div>
+    </div>
+  </body>
+</html>

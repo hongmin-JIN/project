@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>미니플레이</title>
+    <link rel="resetsheet" href="reset.css">
+    <style>
+      body{
+        background-color:#000035;
+        margin:0px;
+        width:100%;
+        min-width:1920px;
+      }
+      .main_top{
+        display:flex;
+        float:right;
+      }
+      .main_top img{
+        width:200px;
+        height:50px;
+        margin-right:480px;
+        padding-top:5px;
+      }
+      .main_top ul{
+        margin-right:200px;
+      }
+      .main_top li{
+        display:inline-block;
+        color:white;
+        list-style:none;
+        margin-right:40px;
+      }
+      .main_menu{
+        display:flex;
+        background:white;
+        width:100%;
+      }
+      .main_menu img{
+        width:200px;
+        height:50px;
+        margin-left:250px;
+        padding-top:3px;
+      }
+      .main_menu li{
+        display:inline-block;
+        margin-left:120px;
+      }
+      .container{
+        display:flex;
+        flex-direction: row;
+        height:1100px;
+      }
+      .page_left{
+        color:white;
+      }
+      .page_left div{
+        border: 2px solid red;
+        width:300px;
+        height:500px;
+        margin-left:200px;
+        margin-top:10px;
+      }
+      .page_left div.chat{
+        background-color: white;
+        color:black;
+        font-weight: bold;
+        border-radius:10px;
+      }
+      .page_top{
+        color:white;
+        display:flex;
+      }
+      .page_top div{
+        border: 2px solid red;
+        width:500px;
+        height:200px;
+        margin-left:10px;
+        margin-top:10px;
+      }
+      .page_top img{
+        width:900px;
+        height:250px;
+      }
+      .page_top div.banner{
+        width:900px;
+        height:250px;
+      }
+      .page_top div.login{
+        width:300px;
+        height:250px;
+        border-radius:10px;
+        background-color: white;
+      }
+      .page_top div.login li{
+        color:black;
+        list-style:none;
+      }
+      .page_middle{
+        color:white;
+        display:flex;
+      }
+      .page_middle .banner_1 img{
+        width:520px;
+        height:236px;
+      }
+      .page_middle .live img{
+        width:443px;
+        height:236px;
+      }
+      .page_middle .live_list img{
+        width:223px;
+        height:750px;
+      }
+      .page_middle div{
+        border: 2px solid red;
+        width:443px;
+        height:236px;
+        margin-left:10px;
+        margin-top:10px;
+      }
+      .page_middle div.banner_1{
+        width:520px;
+      }
+      .page_middle div.live_list{
+        width:223px;
+        height:750px;
+      }
+      .page_bottom{
+        color:white;
+        display:flex;
+        flex-direction:grow;
+        position:absolute;
+        margin-top:514px;
+      }
+      .page_bottom div{
+        border: 2px solid red;
+        width:443px;
+        height:236px;
+        margin-left:10px;
+        margin-top:10px;
+      }
+      .page_bottom div.post{
+        width:520px;
+      }
+      .tabs{
+        color:white;
+        display:flex;
+        position:absolute;
+        margin-top:770px;
+      }
+      .tabs div{
+        border: 2px solid red;
+        width:317px;
+        height:115px;
+        margin-left:10px;
+        margin-top:10px;
+      }
+      .tabs_1{
+        color:white;
+        display:flex;
+        position:absolute;
+        margin-top:899px;
+      }
+      .tabs_1 div{
+        border: 2px solid red;
+        width:317px;
+        height:115px;
+        margin-left:10px;
+        margin-top:10px;
+      }
+      #page{
+        display:flex;
+        flex-direction:column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_top">
+      <img src="logo_games.png">
+      <ul>
+        <li>회원가입</li>
+        <li>로그인</li>
+      </ul>
+    </div>
+    <nav class="main_menu">
+      <img src="logo_play.png">
+      <ul>
+        <li>게임센터</li>
+        <li>이용방법</li>
+        <li>커뮤니티</li>
+        <li>상점</li>
+        <li>고객센터</li>
+      </ul>
+    </nav>
+    <div class="container">
+        <div class="page_left">
+          <div class="chat">chat section</div>
+          <div class="game_list">game_list</div>
+        </div>
+      <div id="page">
+        <div class="page_top">
+          <div class="banner"><img src="banner.png"></div>
+          <div class="login">
+            <ul>
+              <li>로그인</li>
+              <li>아이디 찾기</li>
+              <li>비밀번호 찾기</li>
+              <li>회원가입</li>
+          </div>
+        </div>
+          <div class="page_middle">
+            <div class="banner_1"><img src="banner.png"></div>
+            <div class="live"><img src="live.png"></div>
+            <div class="live_list"><img src="live_list.png"></div>
+          </div>
+          <div class="page_bottom">
+            <div class="post">post</div>
+            <div class="menu_tab">menu_tap</div>
+          </div>
+          <div class="tabs">
+            <div class="sport_tab">sport_tab</div>
+            <div class="live_tab">live_tab</div>
+            <div class="analysis_tab">analysis_tab</div>
+          </div>
+          <div class="tabs_1">
+            <div class="market_tab">market_tab</div>
+            <div class="cash_tab">cash_tab</div>
+            <div class="help_tab">help_tab</div>
+        </div>
+      </div>
+  </body>
+</html>

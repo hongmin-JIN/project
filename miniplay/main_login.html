@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .main_login{
+        border: 2px solid black;
+        list-style:none;
+        display:table;
+        padding:20px;
+        text-align:center;
+      }
+      .main_login ul{
+        padding-left:0;
+      }
+      .btn_login{
+        font-size:14px;
+        width:200px;
+        height:30px;
+        padding-top:10px;
+        border-radius:10px;
+        text-align:center;
+        color:white;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 58%, rgba(124,124,124,1) 100%);
+      }
+      .btn_basic{
+        display:inline-block;
+        font-size:5px;
+        margin-top:5px;
+      }
+      li:nth-child(2){
+        float:left;
+        padding-left:3px;
+      }
+      li:nth-child(3){
+        float:left;
+        padding-left:5px;
+      }
+      li:nth-child(4){
+        float:right;
+        padding-right:5px;
+      }
+      .sns_login{
+        position:relative;
+        font-size: 12px;
+        m
+      }
+      .sns_login h4:before{
+        background-color:white;
+        border-top: 2px solid #aaa;
+        content: "";
+        margin: 0 auto;
+        position: absolute;
+        top: 14%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 95%;
+        z-index: -1;
+      }
+      .sns_login h4 span{
+        background:#fff;
+        padding-right:10px;
+        padding-left:10px;
+        margin-top: 10px;
+      }
+      .sns_login img{
+        display:inline-block;
+        width:30px;
+        margin:5px;
+      }
+      .btn_page img{
+        border:5px solid black;
+        display:inline-block;
+        width:30px;
+        border-radius:10px;
+        border-image:linear-gradient(to bottom, #01c9ca 0%, #3886FF 100%);
+        border-image-slice: 1;
+        padding:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_login">
+      <ul>
+        <li class="btn_login">로그인</li>
+        <li class="btn_basic">아이디찾기</li>
+        <li class="btn_basic">비밀번호 찾기</li>
+        <li class="btn_basic">회원가입</li>
+      </ul>
+        <div class="sns_login">
+          <h4><span>간편로그인</span></h4>
+          <img src="icon_kakao.png">
+          <img src="icon_naver.png">
+          <img src="icon_facebook.png"><br>
+        <div class="btn_page">
+          <img src="icon_attendance.png">
+          <img src="icon_gameresult.png">
+        </div>
+    </div>
+  </body>
+</html>
